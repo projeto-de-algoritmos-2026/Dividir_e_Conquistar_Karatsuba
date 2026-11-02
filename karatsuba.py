@@ -1,13 +1,10 @@
-# karatsuba.py
-"""Karatsuba em binário: só o algoritmo, sem nenhum print."""
-
 from bits import tamanho, dividir, deslocar
 from tracer import Tracer
 
 
 def karatsuba(x, y, tracer=None):
     if tracer is None:
-        tracer = Tracer()  # não imprime nada
+        tracer = Tracer() 
 
     tracer.entrar(x, y)
 
