@@ -1,6 +1,3 @@
-# bits.py
-"""Operações binárias usadas pelo Karatsuba."""
-
 def tamanho(x, y):
     """Quantidade de bits (n) do maior entre x e y."""
     return max(x.bit_length(), y.bit_length())
